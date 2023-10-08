@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC740AAC-3538-E7E9-F616-2FAF9E395A4B" name="FK_Teacher_Course">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_ID" id="D2935F0D-4078-7195-EDFE-D2D582DDE56F">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1871CC39-899B-F889-60D0-EBCF8ED780F4" referredColumn="D0888BB5-ABF8-1F51-BCFE-345B4DC60183"/>
+</associations>
+</Column>
+<Column name="Course_ID" id="08D527B9-58E3-D131-AE16-2B85B31018E1">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1BA0932-D1DA-5AA6-F760-F87186EC43FD" referredColumn="9D9BA626-CA70-7A29-554B-C385E118A70C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDEF333E-7BD6-C2E0-B9C9-6781722EC028" name="FK_Teacher_Course_PK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2935F0D-4078-7195-EDFE-D2D582DDE56F"/>
+<colUsage columnID="08D527B9-58E3-D131-AE16-2B85B31018E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC9628DA-497A-1261-23F2-3416DB3F72AD" name="FK_Teacher_Course_Teacher_FK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>74C8EDD5-A387-0E6C-F12C-431FCD601574</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2935F0D-4078-7195-EDFE-D2D582DDE56F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41A39E8B-8F4C-AD65-C17D-8FECAC5985D0" name="FK_Teacher_Course_Course_FK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>74C8EDD5-A387-0E6C-F12C-431FCD601574</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08D527B9-58E3-D131-AE16-2B85B31018E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7CA31C6-32CD-DBB1-C10F-9B96ED6FAADB" name="Payment">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>4A4BE45F-423C-94FC-09D1-86855D2D88AA</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Payment_ID" id="4F85181D-2E61-C62D-5D7D-3C754F0660C3">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Payment  ID ]]></commentInRDBMS>
+<generatorID>90535162-3E20-91AE-66CD-6D116771DBA8</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_ID" id="6CF79D80-1635-2858-D4B5-5A081E1D5BAB">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>08708BB9-F562-4906-271A-488384B2F257</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0125B744-B5C1-FD53-EF18-C919ECC51F34" referredColumn="5C5ABA55-F8EB-6F25-68DB-8CF49F173EEF"/>
+</associations>
+</Column>
+<Column name="Date" id="CD7DCB29-9993-A71B-5AB8-8336BBF9111C">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date and time of invoice created ]]></commentInRDBMS>
+<generatorID>B5E646C3-3AF5-1F38-64F4-F79578D283CD</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pay_method" id="09A5CE69-4463-F797-1BEE-58E0F82A4B1C">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment method ]]></commentInRDBMS>
+<generatorID>FB5C6F9C-1104-BF77-11FA-1C44B3BDFDDD</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Payment_total" id="E270897B-D9D3-EA97-5178-537AAEDB83E4">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Total amount of payment]]></commentInRDBMS>
+<generatorID>486E3712-6FEB-81AD-B5F4-3B158CFFEDF9</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DEA13BF-011D-A4AB-00B0-AC6B9FE46E58" name="Payment_PK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>88A63588-F952-8F3F-8C1D-9DF6A471EF2F</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F85181D-2E61-C62D-5D7D-3C754F0660C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5162F765-6B54-AC53-D613-A8F8FD901563" name="Payment_Order_FK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>3A300D0C-444B-5E01-6ECD-0E1E132AD115</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CF79D80-1635-2858-D4B5-5A081E1D5BAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

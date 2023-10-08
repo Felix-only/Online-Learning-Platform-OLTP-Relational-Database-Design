@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EBB2FDE-D423-0EBA-74DC-47962E2B9FBB" name="Teacher">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>16833337-29DA-501E-1888-35D65E70B261</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_ID" id="D0888BB5-ABF8-1F51-BCFE-345B4DC60183">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee ID]]></commentInRDBMS>
+<generatorID>2AC7A2FA-2E60-5267-E062-29562A7C795E</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AD739B7-1D71-088E-2860-A6C9227AA71E" referredColumn="C39510A9-1C71-9363-C0B1-E216AEA2E391"/>
+</associations>
+</Column>
+<Column name="Degree" id="7CD463B2-5EB9-CF46-1823-6BBDA8BE57A9">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[The highest degree that the teacher hold ]]></commentInRDBMS>
+<generatorID>FF94F278-80E3-C284-4F3B-E73F9B9A41B6</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Level" id="99E669D9-70B2-99E9-46D8-196D6B8C29BB">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Describe the level that teacher teach ]]></commentInRDBMS>
+<generatorID>EB7E51B3-2A1F-EBCD-7301-D27DD367587A</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Subjects_taught" id="FAE0A893-6FDD-AB85-E3C6-B4B9D40D43DD">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[List of subjects that teachers teach]]></commentInRDBMS>
+<generatorID>1BA71499-149E-26AE-E5C7-F95FC35F0449</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4FFD66E-947A-81E2-AAC8-DC20E51BCBE8" name="Teacher_PK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>3922998D-99E4-615A-CA53-74AAF83624B2</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0888BB5-ABF8-1F51-BCFE-345B4DC60183"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C389BB2-26DA-9AA9-CABC-C45E76B1DCA6" name="Teacher_Employee_FK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>EE033DFF-2B5E-17BC-D9D4-5988C9A204DC</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0888BB5-ABF8-1F51-BCFE-345B4DC60183"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Order_item_Discount" directorySegmentName="seg_0" id="740C0766-AEF3-2CA8-838C-5D7C225E31BA">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 18:34:27 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<targetPk>82375F1F-C6E2-F786-90CB-E63865896141</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3DB20ECA-B720-98AA-5186-E1127EF2CECB</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BB36317B-C797-8511-77D9-EE363019A482</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

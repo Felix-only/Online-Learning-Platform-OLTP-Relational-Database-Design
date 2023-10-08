@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5194A22-E592-7CA7-06B3-0764E0FA7181" name="Order">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:05:07 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Order_ID" id="BEE5CA7D-3349-2216-50EB-BFB5735BCE11">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:18:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Order ID ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Order_date" id="240CE04B-8317-EFDC-F99F-619DBBD677CE">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:20:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date and time of order ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Order_Amount" id="8D25AFAD-6221-C81E-DCEE-DAF364566BC5">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:56:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Amount of money in the order. (USD)]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Student_ID" id="C72310D5-FB42-79B5-CAC0-4B9E6AC5B3CC">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 18:16:38 UTC</createdTime>
+<generatorID>C9EA6B22-750A-6D80-939C-E19CAC3E047B</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<referedAttribute>EE7D06E6-EA4B-9920-555A-FE29E813413A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD195A63-37CC-8C99-D781-F74BE3DB93E3" name="Order PK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:19:16 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BEE5CA7D-3349-2216-50EB-BFB5735BCE11</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

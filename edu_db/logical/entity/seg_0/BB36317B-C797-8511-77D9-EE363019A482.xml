@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB36317B-C797-8511-77D9-EE363019A482" name="Discount ">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 17:15:10 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Discount_ID" id="BF54A8EF-53EA-9655-834D-0DD6A6DEAA02">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 17:20:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Discount ID]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Discount_name" id="CEFC0D0F-9CD6-F757-E249-F28F1EB13A6F">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 17:21:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[name of the discount]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dis_amount" id="E4064ECE-85DD-1448-3497-841B55DAF151">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 17:23:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Discount amount means the precentage of discount. For example, 0.3 means that 30% off. ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="B21C65BE-FF73-84A6-6834-E175015672F5">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 17:28:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Description of discount ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="82375F1F-C6E2-F786-90CB-E63865896141" name="Discount PK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 17:30:57 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF54A8EF-53EA-9655-834D-0DD6A6DEAA02</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

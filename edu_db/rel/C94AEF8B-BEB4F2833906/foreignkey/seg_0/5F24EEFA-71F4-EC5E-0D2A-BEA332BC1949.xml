@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5F24EEFA-71F4-EC5E-0D2A-BEA332BC1949" containerWithKeyObject="9FB2C806-3EBD-7F5B-1CF8-73CA697F75A4" localFKIndex="DB9B3E46-ECAF-6649-9429-A2EBA457A338" name="Order_Course_Discount_FK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>740C0766-AEF3-2CA8-838C-5D7C225E31BA</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<referredTableLongName>Discount</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DD5EC1A9-CDFF-0C35-C4E0-5CE0A7665D37</referredTableID>
+<keyObject>CE0A9918-8E78-D67B-FBBB-F117EE56B09A</keyObject>
+<referredKeyID>CE0A9918-8E78-D67B-FBBB-F117EE56B09A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Discount_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

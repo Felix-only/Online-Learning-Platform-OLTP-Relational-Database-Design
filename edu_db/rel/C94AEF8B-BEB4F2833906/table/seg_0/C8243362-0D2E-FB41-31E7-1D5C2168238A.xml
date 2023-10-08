@@ -1,0 +1,238 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8243362-0D2E-FB41-31E7-1D5C2168238A" name="Employee">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>E7AAA309-D504-661F-AC57-45C8097BD950</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_ID" id="C39510A9-1C71-9363-C0B1-E216AEA2E391">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee ID]]></commentInRDBMS>
+<generatorID>2AC7A2FA-2E60-5267-E062-29562A7C795E</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fname" id="17811036-4CC0-A47F-F3C2-1C6E73EC9E51">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[First name of employee ]]></commentInRDBMS>
+<generatorID>4AF0C857-A513-A56F-841D-EE4A7678DBC4</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lname" id="F1AA9205-B88E-CD96-FCA0-C31B8C30326D">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last name of Employee ]]></commentInRDBMS>
+<generatorID>625EA7AD-2A50-39F4-E158-B820918208A1</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOB" id="C24035BA-E375-80DE-045E-4C1305903E58">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date of Birth of employee]]></commentInRDBMS>
+<generatorID>42BEDA8F-72D6-7B23-4DE1-743FB52A98D0</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Street" id="6846C1A7-43F5-16BB-22EE-EA3625E0C122">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Address street of employee]]></commentInRDBMS>
+<generatorID>D090A074-35CF-2DC7-AC89-CC7120775361</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="163E12B2-D397-61B2-9014-747484C05E64">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[City of Address of employee]]></commentInRDBMS>
+<generatorID>77EA4050-8200-2B15-3888-3C1EDE49CE47</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="4E9B3D2E-0646-9248-2B46-39F6E32131F9">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[State of address of employee]]></commentInRDBMS>
+<generatorID>F83121B2-2985-8C3F-2625-6CF88448820B</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zipcode" id="92C351C4-DDC6-1FCB-1C20-98CA415E4EA5">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[ZipCode of employee's address]]></commentInRDBMS>
+<generatorID>DE43FBBA-F86A-A4E0-E67C-121FB3C0EFCD</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="D32F7338-AB2D-4767-FFBE-7A31F64BA62E">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee Email address ]]></commentInRDBMS>
+<generatorID>091C8AEB-8861-0604-CD71-ACA64379D6D2</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone_number" id="DC437878-DF68-7C0E-637A-52AA8E43E635">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee phone number ]]></commentInRDBMS>
+<generatorID>C8A878AE-0F90-6DBE-EADF-8AD84E46FCCA</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salary" id="86C9365C-0A51-037C-5FFD-89B7E29D6E42">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee's salary ]]></commentInRDBMS>
+<generatorID>9121689F-7B37-C5C8-449A-D1130C08ABFF</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hire_Date" id="89562E65-715F-480D-D33C-0C33C4C5C7A8">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date of Hired ]]></commentInRDBMS>
+<generatorID>4C639328-8370-F7DA-5EF5-73D0A429900E</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employee_Type" id="FA8421CB-E8B7-2D21-33E3-C23C7A8119D1">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Type of employee. Could have instructor and other employee types. ]]></commentInRDBMS>
+<generatorID>175F2163-9837-11E4-E69E-97229CB03EEE</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<constraintName>CH_INH_Employee</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="O" description="entity Employee"/>
+<valueDef value="T" description="entity Teacher"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="Country_ID" id="F876A61E-55CA-A7F3-1C55-A319401C82EB">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>72B2575F-0CA8-460B-A782-F234E34E03BC</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0F599BC-4FDE-AF9E-2917-AE5674F3988F" referredColumn="5C211B1B-0F8E-DF20-7CE1-0C1D7459189F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DAD5701-8A00-DFBB-D3FE-606EDC294A46" name="Employee_PK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>3922998D-99E4-615A-CA53-74AAF83624B2</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C39510A9-1C71-9363-C0B1-E216AEA2E391"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCF4C022-82B4-0351-5D02-FF4028D88A44" name="Employee_Country_FK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>9DEC7828-F35E-9EF3-9110-D9B136BE9C6E</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F876A61E-55CA-A7F3-1C55-A319401C82EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

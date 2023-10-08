@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26718F39-67E9-B1A3-AC8F-57640AA1CE0A" name="Order">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>D5194A22-E592-7CA7-06B3-0764E0FA7181</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Order_ID" id="5C5ABA55-F8EB-6F25-68DB-8CF49F173EEF">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Order ID ]]></commentInRDBMS>
+<generatorID>BEE5CA7D-3349-2216-50EB-BFB5735BCE11</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_date" id="48AD017D-94B6-4BD3-0147-57EBC68BB7A7">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date and time of order ]]></commentInRDBMS>
+<generatorID>240CE04B-8317-EFDC-F99F-619DBBD677CE</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_Amount" id="B95F2894-BC44-1C01-89C2-D766C7618079">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Amount of money in the order. (USD)]]></commentInRDBMS>
+<generatorID>8D25AFAD-6221-C81E-DCEE-DAF364566BC5</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_ID" id="64667F45-F04B-5FD5-3DA9-1801684EA891">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>C72310D5-FB42-79B5-CAC0-4B9E6AC5B3CC</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6797C88B-C3F6-FE8B-33E6-401608CC77E6" referredColumn="2E5C348B-92E8-6D79-DA92-50B2F1099CB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="837D9363-790A-5F08-F13A-C39ED9F58552" name="Order_PK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>CD195A63-37CC-8C99-D781-F74BE3DB93E3</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C5ABA55-F8EB-6F25-68DB-8CF49F173EEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E469BAA8-1C9E-30E1-3A28-96552805632C" name="Order_Student_FK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>C9EA6B22-750A-6D80-939C-E19CAC3E047B</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64667F45-F04B-5FD5-3DA9-1801684EA891"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

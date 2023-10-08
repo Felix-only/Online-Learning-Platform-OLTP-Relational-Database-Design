@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A4BE45F-423C-94FC-09D1-86855D2D88AA" name="Payment">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:11:21 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="C94AEF8B-0BC4-2FE4-A5D0-BEB4F2833906" value="true"/>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Order_ID" id="08708BB9-F562-4906-271A-488384B2F257">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:19:23 UTC</createdTime>
+<generatorID>3A300D0C-444B-5E01-6ECD-0E1E132AD115</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="C94AEF8B-0BC4-2FE4-A5D0-BEB4F2833906" value="true"/>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<referedAttribute>BEE5CA7D-3349-2216-50EB-BFB5735BCE11</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Payment_ID" id="90535162-3E20-91AE-66CD-6D116771DBA8">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:47:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Payment  ID ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="C94AEF8B-0BC4-2FE4-A5D0-BEB4F2833906" value="true"/>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date " id="B5E646C3-3AF5-1F38-64F4-F79578D283CD">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:49:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date and time of invoice created ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="C94AEF8B-0BC4-2FE4-A5D0-BEB4F2833906" value="true"/>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pay_method" id="FB5C6F9C-1104-BF77-11FA-1C44B3BDFDDD">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:59:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment method ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="C94AEF8B-0BC4-2FE4-A5D0-BEB4F2833906" value="true"/>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Payment_total " id="486E3712-6FEB-81AD-B5F4-3B158CFFEDF9">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:58:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Total amount of payment]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="C94AEF8B-0BC4-2FE4-A5D0-BEB4F2833906" value="true"/>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="88A63588-F952-8F3F-8C1D-9DF6A471EF2F" name="Invoice PK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:48:19 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="C94AEF8B-0BC4-2FE4-A5D0-BEB4F2833906" value="true"/>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90535162-3E20-91AE-66CD-6D116771DBA8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

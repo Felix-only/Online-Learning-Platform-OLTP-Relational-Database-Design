@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39AFDBB7-7231-16C5-0132-942B6D890432" name="Course">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>B1204D43-0B77-AAE9-178F-7824C911E333</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Course_ID" id="9D9BA626-CA70-7A29-554B-C385E118A70C">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Course ID]]></commentInRDBMS>
+<generatorID>77956E40-11CD-137E-7E07-7E75371D7E05</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Course_name" id="4A022FE0-232C-4192-32D6-45F9001561AE">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[course name]]></commentInRDBMS>
+<generatorID>B710F473-731B-71C7-D35A-07E9B3D90712</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Subject" id="EAC0430D-AA4B-6294-912A-202980A5ACAE">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Subject of the class. For example, English, Math ]]></commentInRDBMS>
+<generatorID>E2B3CCE1-CEB0-7D75-622D-2B4CD54CD408</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Level" id="035CC76F-40F3-19E8-D626-9435F4502CEF">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Level of the subject. For example, Level A in  English]]></commentInRDBMS>
+<generatorID>F55ADCB1-499A-D012-C476-D69AD6EA2C35</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Length" id="57FA5E44-B36A-0211-7402-1AD96D4C2D8D">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Length of the class in minute]]></commentInRDBMS>
+<generatorID>26F4140F-D878-3D30-E008-44DC2E2D4AC9</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacity" id="A7EF4559-7210-86E6-EBD2-B080FC0768DD">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Max capacity of students in the class]]></commentInRDBMS>
+<generatorID>A3F1C18F-697F-AF5A-DB8C-76E90DF41685</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prerequisite" id="3A25469A-6667-3729-EB27-E6605FBA1895">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Prerequisite for taking the class]]></commentInRDBMS>
+<generatorID>7E61BBB4-1C44-15C0-6D8D-7588DD9F4D63</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="6CF7A66E-59DA-6C8A-8A83-AEE6439B63FC">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Course price ]]></commentInRDBMS>
+<generatorID>7C5A5BE6-D5C5-C316-B7BE-75956FE7EB2F</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71C816B0-E1E4-9715-384C-7A8BFFE160A3" name="Course_PK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>A6E73A4C-C3C7-7108-4645-449DE4B97EC5</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D9BA626-CA70-7A29-554B-C385E118A70C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

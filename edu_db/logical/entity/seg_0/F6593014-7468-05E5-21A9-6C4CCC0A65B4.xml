@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6593014-7468-05E5-21A9-6C4CCC0A65B4" name="Country">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 17:03:45 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="C94AEF8B-0BC4-2FE4-A5D0-BEB4F2833906" value="true"/>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Country_ID" id="7C0C6093-B11D-2B91-E435-B668B90135A3">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 17:04:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Country ID ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="C94AEF8B-0BC4-2FE4-A5D0-BEB4F2833906" value="true"/>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Country_name" id="4DB3203D-3104-2B0D-9C4D-9ABDE355138A">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 17:05:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[The name of the country ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="C94AEF8B-0BC4-2FE4-A5D0-BEB4F2833906" value="true"/>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8AF62EAF-53E1-7F30-77AA-74CB614D2238" name="Country PK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 17:05:37 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="C94AEF8B-0BC4-2FE4-A5D0-BEB4F2833906" value="true"/>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C0C6093-B11D-2B91-E435-B668B90135A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

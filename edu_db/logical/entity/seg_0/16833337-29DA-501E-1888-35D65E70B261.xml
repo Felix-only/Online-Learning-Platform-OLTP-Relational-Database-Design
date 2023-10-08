@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="16833337-29DA-501E-1888-35D65E70B261" name="Teacher">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 15:19:58 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="C94AEF8B-0BC4-2FE4-A5D0-BEB4F2833906" value="true"/>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>E7AAA309-D504-661F-AC57-45C8097BD950</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorValue>T</discriminatorValue>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Degree" id="FF94F278-80E3-C284-4F3B-E73F9B9A41B6">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 15:57:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[The highest degree that the teacher hold ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="C94AEF8B-0BC4-2FE4-A5D0-BEB4F2833906" value="true"/>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Level" id="EB7E51B3-2A1F-EBCD-7301-D27DD367587A">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 15:55:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Describe the level that teacher teach ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="C94AEF8B-0BC4-2FE4-A5D0-BEB4F2833906" value="true"/>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Subjects_taught" id="1BA71499-149E-26AE-E5C7-F95FC35F0449">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 18:53:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[List of subjects that teachers teach]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="C94AEF8B-0BC4-2FE4-A5D0-BEB4F2833906" value="true"/>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

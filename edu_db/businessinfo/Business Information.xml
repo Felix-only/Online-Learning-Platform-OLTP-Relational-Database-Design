@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="1EC9CBBA-7EEF-EC84-513F-80039D17549B">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 15:19:21 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

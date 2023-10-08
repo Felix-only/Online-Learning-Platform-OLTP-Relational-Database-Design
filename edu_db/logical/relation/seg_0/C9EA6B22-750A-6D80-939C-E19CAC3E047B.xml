@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Student_Order" directorySegmentName="seg_0" id="C9EA6B22-750A-6D80-939C-E19CAC3E047B">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:06:52 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<sourcePk>F760A3D3-91C5-1CF6-BF2D-818AFDD06893</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>25278A64-D098-18BD-D584-60C047E3059F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D5194A22-E592-7CA7-06B3-0764E0FA7181</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

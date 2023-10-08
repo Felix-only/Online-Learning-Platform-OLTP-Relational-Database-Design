@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="25278A64-D098-18BD-D584-60C047E3059F" name="Student">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 15:21:09 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Student_ID" id="EE7D06E6-EA4B-9920-555A-FE29E813413A">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:00:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Student ID]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fname" id="82C8B178-9680-0511-24FD-74F5E49993B6">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:00:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[First name of student ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Lname" id="D0FFEFDA-F2DB-3129-79C0-BD763AC826F4">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:01:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last name of student ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DOB" id="6501CFEF-1406-59AB-F910-9B29ED95DE24">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:02:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date of birth]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Street" id="6145DA48-89DD-A0CA-8EDB-AE342C680280">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:02:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Address street]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City " id="E82ADFE4-B829-430C-FC16-98BB13CC7B02">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:03:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Address City]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="State" id="55A0A400-3CEE-3852-271C-9895EC51E2D0">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:14:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[State of address]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zipcode" id="A27A3612-0B5E-E82B-E80B-07DC5E89F323">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:16:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Zip Code of address ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="AB3F6073-1644-0C32-167E-2481F4A132B9">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:21:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Student's Email ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone_number " id="9B6B3DA7-3E4D-80D1-4C6C-1299326E81FA">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:22:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Student phone number ]]></commentInRDBMS>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Country_ID" id="50A75DB0-FE5A-803E-6A9B-BA423321E631">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 17:06:16 UTC</createdTime>
+<generatorID>E155D813-8BF7-9C62-4E12-86F17DF5BD59</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<referedAttribute>7C0C6093-B11D-2B91-E435-B668B90135A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F760A3D3-91C5-1CF6-BF2D-818AFDD06893" name="Student PK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-18 16:00:30 UTC</createdTime>
+<ownerDesignName>edu_db</ownerDesignName>
+<engineerTo>
+<item key="9B987DC3-82DE-0626-DCA9-436F98A9B92A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE7D06E6-EA4B-9920-555A-FE29E813413A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

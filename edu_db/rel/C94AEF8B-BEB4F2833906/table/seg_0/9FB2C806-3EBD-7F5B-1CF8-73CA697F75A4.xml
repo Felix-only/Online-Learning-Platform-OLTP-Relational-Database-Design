@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FB2C806-3EBD-7F5B-1CF8-73CA697F75A4" name="Order_Course">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>3DB20ECA-B720-98AA-5186-E1127EF2CECB</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Order_ID" id="C8D80D4D-2DA3-5D7F-8ADC-41FF0FA5A7D3">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>153447B5-24FD-617E-DA69-2999C14CFB07</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF2CDF21-B5E9-5E9B-3722-042B982A29F8" referredColumn="5C5ABA55-F8EB-6F25-68DB-8CF49F173EEF"/>
+</associations>
+</Column>
+<Column name="Course_ID" id="38372BD9-3FB8-4086-AF3A-5470D884C5FB">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>DC12E818-ED35-7392-F159-703656930A0B</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A76AA89-3334-9652-0AFC-923F93759B8E" referredColumn="9D9BA626-CA70-7A29-554B-C385E118A70C"/>
+</associations>
+</Column>
+<Column name="Discount_ID" id="3D1531FC-5EAD-D509-4AFE-D49594998E98">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>EB13D99A-84F3-4D4B-1677-62359AB0D887</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F24EEFA-71F4-EC5E-0D2A-BEA332BC1949" referredColumn="BCAB3804-64FE-D2BC-1476-E6BBF708642F"/>
+</associations>
+</Column>
+<Column name="Course_quantity" id="40B1AA18-FB6D-7B89-2B2C-AFA9704F2BA4">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[number of class customers want to order]]></commentInRDBMS>
+<generatorID>5B89B8A9-E667-3964-65B8-360E689A70B6</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D94336E-D6E1-A912-D2E9-A462D67949B8" name="Order_Course_PK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>6EBC73AC-32ED-3560-280D-2C69ACADC5F8</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8D80D4D-2DA3-5D7F-8ADC-41FF0FA5A7D3"/>
+<colUsage columnID="38372BD9-3FB8-4086-AF3A-5470D884C5FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5718C692-8CFB-9C27-AA3E-A39D6A39F8F7" name="Order_Course_Course_FK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>89918C18-850F-B289-5796-595E9C0F6AE9</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38372BD9-3FB8-4086-AF3A-5470D884C5FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB9B3E46-ECAF-6649-9429-A2EBA457A338" name="Order_Course_Discount_FK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>740C0766-AEF3-2CA8-838C-5D7C225E31BA</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D1531FC-5EAD-D509-4AFE-D49594998E98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="090A03E4-B832-9D3C-3721-C67C92E581F2" name="Order_Course_Order_FK">
+<createdBy>felix</createdBy>
+<createdTime>2022-03-22 00:09:49 UTC</createdTime>
+<generatorID>EA3380A6-88FA-19B9-E151-82E1ABFCE26D</generatorID>
+<ownerDesignName>edu_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8D80D4D-2DA3-5D7F-8ADC-41FF0FA5A7D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
