@@ -1,4 +1,4 @@
-# Online Learning Platform OLTP Database Design
+# Online Learning Platform OLTP Relational Database Design
 
 ## Executive Summary 
 
